@@ -1,0 +1,1 @@
+https://registry.terraform.io/providers/hashicorp/aws/4.9.0/docs?utm_content=documentLink&utm_medium=Visual+Studio+Code&utm_source=terraform-ls
