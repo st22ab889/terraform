@@ -24,3 +24,26 @@ https://gitee.com/st22ab889/terraform-example
 ```
 https://www.bilibili.com/video/BV18R4y1N7MY?p=1 
 ```
+
+
+### …or create a new repository on the command line ### 
+```
+echo "# terraform" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:st22ab889/terraform.git
+git push -u origin main
+```
+
+### …or push an existing repository from the command line ### 
+```
+git remote add origin git@github.com:st22ab889/terraform.git
+git branch -M main
+git push -u origin main
+```
+### …or import code from another repository ###
+```
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+```
