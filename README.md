@@ -8,8 +8,15 @@ terraform 和 Ansible 的区别：https://blog.csdn.net/hifour/article/details/1
 
 ### terraform 优点知识 ###
 ```
-https://youdianzhishi.com/web/course/1033
-https://www.idevops.site/detail/p_6244729ee4b01a4851eb33b9/8
+优点知识 --> Terraform 实践课: 
+    https://youdianzhishi.com/web/course/1033
+
+Terraform 实践课示例代码 Github Repo: 
+    https://github.com/zeyangli/terraform-k8s
+    https://github.com/zeyangli/terraform-learning-code
+
+DevOps云学堂 --> Terraform:基础设施自动化实践(这个课和优点知识的 Terraform 实践课是同一个课程):
+    https://www.idevops.site/detail/p_6244729ee4b01a4851eb33b9/8
 ```
 
 ### terraform B站 视频 1 ### 

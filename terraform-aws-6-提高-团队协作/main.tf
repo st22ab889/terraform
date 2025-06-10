@@ -64,7 +64,7 @@ module "nginx-server" {
   region = var.region
   amis = var.amis
   instance_type = var.instance_type
-  ssh_key_name = module.ssh_key_name.key_name
+  ssh_key_name = module.ssh-key-name.key_name
 }
 
 module "ss-server" {
