@@ -1,5 +1,6 @@
 ### terraform 资料 ###
 ```
+terraform 官方文档: https://developer.hashicorp.com/terraform/language
 terraform 电子书：https://lonegunmanb.github.io/introduction-terraform/
 在Windows上安装Terraform：https://blog.csdn.net/weixin_33669839/article/details/116130066
 terraform管理本地K8S集群：https://blog.csdn.net/u010039418/article/details/122250242
