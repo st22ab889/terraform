@@ -17,7 +17,7 @@
  * 一旦将 terraform 的状态文件存储在 terraform cloud 上，作为团队中每一个成员都能共享该状态文件。 
  * 
  * 配置 terraform 远端状态文件的存储位置以及授权认证：
- *    "outputs.tf"文件中 backend 块支持 token 参数,用来和远端存储进行授权认证,敏感信息不适合保存在代码仓库中,可以通过下面的方式将 token 信息保存在本机:
+ *    "backends.tf"文件中 backend 块支持 token 参数,用来和远端存储进行授权认证,敏感信息不适合保存在代码仓库中,可以通过下面的方式将 token 信息保存在本机:
  *        linux或mac：打开用户主目录下的 .terraformrc 文件,如果没有就创建,然后将文件中的token替换为在 terraform cloud 上生成的 token。
  *        windows：这个配置文件名为 terraform.rc, 位于 "[用户]/AppData" 目录。
  *    完成后需要重新执行 "terraform init" 命令,当再次应用 terraform 代码时, terraform 就会将状态文件存储到 terraform cloud。
